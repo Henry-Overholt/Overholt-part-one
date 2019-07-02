@@ -1,0 +1,100 @@
+
+body {	
+	background-image:url("/Users/doofuspi314/Desktop/FrontEndBootcamp/Overholt-Part-	One/bulldog.jpg");	
+	background-color:#F0ECEE;
+	font-family: Fira Sans;
+	}
+
+ul {
+	background:#FOECEE;
+	padding: 10px;
+	list-style-type:none;
+	margin:0;
+	display: flex;
+	justify-content: space-between;
+	}
+
+.contact {
+	background-color:#FF4850;
+	Padding: 10px;
+	Border: 15px;
+	color:white;
+	border-radius: 15px;
+	font-size:16px;
+	}
+h2 {
+	font-weight:400;
+	position:relative;
+	top:20px;
+	left: 40px;
+	font:fira sans;
+	}
+
+.findouthow {
+	background-color:#FF4850;
+	Padding:10px;
+	Border-radius:15px;
+	color:white;
+	font-weight:400;
+	text-align:center;
+	font-size:16px;
+	position: relative;
+	top:200px;
+	left:40px;
+	width: 200px;
+	}
+
+a {
+	text-decoration:none;
+	color:#88898B;
+	}
+
+span {
+	color:#FF4850;
+	text-style:inherit;
+	}
+
+a:hover {
+	color:#FF4850;
+	}
+
+.findouthow:hover {
+	background:#CCC;
+	}
+.contact:hover {
+	background:#CCC;
+	color:white;
+	font-size:
+	}
+p {
+	font-weight:300;
+	color:#88898B;
+	position:relative;
+	top:200px;
+	left:40px;
+	width:500px;
+	text-size:24px;
+	}
+h1 {
+	font-weight:600;
+	position: relative;
+	top:200px;
+	left:40px;
+	width:450px;
+	}
+
+@media screen and (max-width:767px) {
+	nav {
+	display: inline;
+	}
+	buttons {
+	width:100%
+	}
+}
+@media screen and (min-width:678px) {
+	nav {
+	width: auto;
+	}
+}
+
+
