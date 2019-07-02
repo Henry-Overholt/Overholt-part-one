@@ -1,18 +1,30 @@
 
 body {	
-	background-image:url("/Users/doofuspi314/Desktop/FrontEndBootcamp/Overholt-Part-	One/bulldog.jpg");	
+	background-image:url("bulldog.jpg");
+	background-position:center;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;	
 	background-color:#F0ECEE;
-	font-family: Fira Sans;
+	Font-family:"Fira Sans";
+	position:relative;
+	top:0;
 	}
 
 ul {
 	background:#FOECEE;
 	padding: 10px;
 	list-style-type:none;
-	margin:0;
-	display: flex;
-	justify-content: space-between;
+	display:flex;
+	justify-content:space-between;
+	margin-right:auto;
+	align-items:center;
+	margin-right:auto;
+	width:400px;
+	float:right;
+	flex:1;
 	}
+
 
 .contact {
 	background-color:#FF4850;
@@ -22,12 +34,13 @@ ul {
 	border-radius: 15px;
 	font-size:16px;
 	}
+
 h2 {
 	font-weight:400;
 	position:relative;
 	top:20px;
 	left: 40px;
-	font:fira sans;
+	float:left;
 	}
 
 .findouthow {
@@ -61,11 +74,12 @@ a:hover {
 .findouthow:hover {
 	background:#CCC;
 	}
+
 .contact:hover {
 	background:#CCC;
 	color:white;
-	font-size:
 	}
+
 p {
 	font-weight:300;
 	color:#88898B;
@@ -75,12 +89,14 @@ p {
 	width:500px;
 	text-size:24px;
 	}
+
 h1 {
 	font-weight:600;
 	position: relative;
 	top:200px;
 	left:40px;
 	width:450px;
+	clear:both;
 	}
 
 @media screen and (max-width:767px) {
