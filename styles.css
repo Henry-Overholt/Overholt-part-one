@@ -6,7 +6,7 @@ body {
 	background-repeat:no-repeat;
 	background-attachment:fixed;	
 	background-color:#F0ECEE;
-	Font-family:"Fira Sans";
+	Font-family:"Fira-Sans";
 	position:relative;
 	top:0;
 	}
@@ -20,7 +20,7 @@ ul {
 	margin-right:auto;
 	align-items:center;
 	margin-right:auto;
-	width:400px;
+	width:500px;
 	float:right;
 	flex:1;
 	}
