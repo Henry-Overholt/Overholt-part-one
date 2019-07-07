@@ -1,10 +1,5 @@
 
-body {	
-	background-image:url("bulldog.jpg");
-	background-position:center;
-	background-size:100% 100%;
-	background-repeat:no-repeat;
-	background-attachment:fixed;	
+body {		
 	background-color:#F0ECEE;
 	Font-family:"Fira-Sans";
 	position:relative;
@@ -15,13 +10,7 @@ ul {
 	background:#FOECEE;
 	padding: 10px;
 	list-style-type:none;
-	display:flex;
-	justify-content:space-between;
-	margin-right:auto;
-	align-items:center;
-	margin-right:auto;
 	width:500px;
-	float:right;
 	flex:1;
 	}
 
@@ -33,14 +22,25 @@ ul {
 	color:white;
 	border-radius: 15px;
 	font-size:16px;
+	width:100%;
+	}
+
+.contact:hover {
+	background:#CCC;
+	color:#FF4850;
+	}
+
+a {
+	text-decoration:none;
+	color:#88898B;
+	}
+
+a:hover {
+	color:#FF4850;
 	}
 
 h2 {
 	font-weight:400;
-	position:relative;
-	top:20px;
-	left: 40px;
-	float:left;
 	}
 
 .findouthow {
@@ -51,65 +51,100 @@ h2 {
 	font-weight:400;
 	text-align:center;
 	font-size:16px;
-	position: relative;
-	top:200px;
-	left:40px;
-	width: 200px;
+	width: 100%;
 	}
 
-a {
-	text-decoration:none;
-	color:#88898B;
+.findouthow:hover {
+	background:#CCC;
+	color:#FF4850;
 	}
 
 span {
 	color:#FF4850;
 	text-style:inherit;
+	padding-left:6px;
 	}
 
-a:hover {
-	color:#FF4850;
-	}
-
-.findouthow:hover {
-	background:#CCC;
-	}
-
-.contact:hover {
-	background:#CCC;
-	color:white;
+h1 {
+	font-weight:600;
+	display:flex;
+	flex-wrap:wrap;
+	width:450px;
+	clear:both;
 	}
 
 p {
 	font-weight:300;
 	color:#88898B;
-	position:relative;
-	top:200px;
-	left:40px;
 	width:500px;
 	text-size:24px;
+	display:flex;
+	flex-wrap;
 	}
 
-h1 {
-	font-weight:600;
-	position: relative;
-	top:200px;
-	left:40px;
-	width:450px;
-	clear:both;
-	}
 
-@media screen and (max-width:767px) {
-	nav {
-	display: inline;
-	}
-	buttons {
-	width:100%
-	}
-}
+
 @media screen and (min-width:678px) {
-	nav {
-	width: auto;
+	body {
+		background-image:url("bulldog.jpg");
+		background-position:center;
+		background-size:100% 100%;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+	}
+	.findouthow {
+		background-color:#FF4850;
+		Padding:10px;
+		Border-radius:15px;
+		color:white;
+		font-weight:400;
+		text-align:center;
+		font-size:16px;
+		position: relative;
+		top:200px;
+		left:40px;
+		width: auto;
+	}
+	ul {
+		background:#FOECEE;
+		padding: 10px;
+		list-style-type:none;
+		display:flex;
+		justify-content:space-between;
+		margin-right:auto;
+		align-items:center;
+		margin-right:auto;
+		width:500px;
+		float:right;
+		flex:1;
+	}
+	h1 {
+		font-weight:600;
+		position:relative;
+		top:200px;
+		left:40px;
+		width:450px;
+		clear:both;
+		display:flex;
+		flex-wrap:wrap;
+	}
+	p {
+		font-weight:300;
+		color:#88898B;
+		position:relative;
+		top:200px;
+		left:40px;
+		width:500px;
+		text-size:24px;
+		display:flex;
+		flex-wrap;
+	}
+	h2 {
+		font-weight:400;
+		position:relative;
+		top:20px;
+		left: 40px;
+		float:left;
 	}
 }
 
