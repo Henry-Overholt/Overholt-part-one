@@ -84,7 +84,7 @@ p {
 
 
 
-@media screen and (min-width:678px) {
+@media screen and (min-width:768px) {
 	body {
 		background-image:url("bulldog.jpg");
 		background-position:center;
